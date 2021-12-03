@@ -23,7 +23,7 @@ fun main() {
         return part1(map.values.toList())
     }
 
-    val testInput = readInput("Day01_test").map { it.toInt() }
+    val testInput = readInput("Day01").map { it.toInt() }
     check(part1(testInput) == 1766)
     check(part2(testInput) == 1797)
 }
