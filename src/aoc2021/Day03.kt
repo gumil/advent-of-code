@@ -1,3 +1,7 @@
+package aoc2021
+
+import readInput
+
 fun main() {
     fun part1(input: List<String>): Int {
         val map = mutableMapOf<Int, MutableList<Char>>()
@@ -52,7 +56,7 @@ fun main() {
         return generator * scrubber
     }
 
-    val testInput = readInput("2021/Day03")
+    val testInput = readInput("aoc2021/Day03")
     check(part1(testInput) == 3901196)
     check(part2(testInput) == 4412188)
 }

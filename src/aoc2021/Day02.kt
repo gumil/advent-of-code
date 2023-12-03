@@ -1,3 +1,7 @@
+package aoc2021
+
+import readInput
+
 enum class Direction {
     FORWARD, DOWN, UP
 }
@@ -49,7 +53,7 @@ fun main() {
         return horizontal * depth
     }
 
-    val testInput = readInput("2021/Day02")
+    val testInput = readInput("aoc2021/Day02")
     check(part1(testInput) == 1698735)
     check(part2(testInput) == 1594785890)
 }

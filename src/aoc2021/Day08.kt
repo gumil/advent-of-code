@@ -1,3 +1,7 @@
+package aoc2021
+
+import readInput
+
 fun main() {
     fun part1(input: List<String>): Int {
         return input.map { line ->
@@ -54,8 +58,8 @@ fun main() {
         }
     }
 
-    val input = readInput("2021/Day08")
-    val sample = readInput("2021/Day08_test")
+    val input = readInput("aoc2021/Day08")
+    val sample = readInput("aoc2021/Day08_test")
 
     println(part2(input))
     check(part1(sample) == 26)

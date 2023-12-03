@@ -1,3 +1,7 @@
+package aoc2021
+
+import readInput
+
 fun main() {
     fun part1(input: List<String>): Int {
         var fishes = input.first().split(",")
@@ -50,8 +54,8 @@ fun main() {
         return fishSums.sum()
     }
 
-    val input = readInput("2021/Day06")
-    val sample = readInput("2021/Day06_test")
+    val input = readInput("aoc2021/Day06")
+    val sample = readInput("aoc2021/Day06_test")
     check(part1(sample) == 5934)
     check(part2(sample) == 26984457539)
     check(part1(input) == 373378)

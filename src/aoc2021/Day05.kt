@@ -1,3 +1,8 @@
+package aoc2021
+
+import emptyArray
+import readInput
+
 fun main() {
     fun getRange(y1: Int, y2: Int) = if (y1 > y2) {
         y2 to y1
@@ -106,8 +111,8 @@ fun main() {
         }
     }
 
-    val input = readInput("2021/Day05")
-    val sample = readInput("2021/Day05_test")
+    val input = readInput("aoc2021/Day05")
+    val sample = readInput("aoc2021/Day05_test")
 
     check(part1(sample, 10) == 5)
     check(part2(sample, 10) == 12)

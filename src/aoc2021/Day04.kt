@@ -1,3 +1,7 @@
+package aoc2021
+
+import readInput
+
 fun main() {
     fun emptyArray() = arrayOf(
         IntArray(5) { -1 },
@@ -120,8 +124,8 @@ fun main() {
         return 0
     }
 
-    val input = readInput("2021/Day04")
-    val sample = readInput("2021/Day04_test")
+    val input = readInput("aoc2021/Day04")
+    val sample = readInput("aoc2021/Day04_test")
 
     check(part1(sample) == 4512)
     check(part2(sample) == 1924)

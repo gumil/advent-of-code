@@ -1,3 +1,7 @@
+package aoc2023
+
+import readInput
+
 fun main() {
     fun part1(input: List<String>): Int {
         return input.sumOf { line ->
@@ -67,7 +71,7 @@ fun main() {
         "Actual = $part2"
     }
 
-    val input = readInput("2023/Day01")
+    val input = readInput("aoc2023/Day01")
 
     check(part1(input) == 54601)
     check(part2(input) == 54078)

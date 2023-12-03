@@ -1,3 +1,6 @@
+package aoc2021
+
+import readInput
 import kotlin.math.abs
 
 fun main() {
@@ -38,8 +41,8 @@ fun main() {
         return currentFuel
     }
 
-    val input = readInput("2021/Day07")
-    val sample = readInput("2021/Day07_test")
+    val input = readInput("aoc2021/Day07")
+    val sample = readInput("aoc2021/Day07_test")
 
     check(part1(sample) == 37)
     check(part2(sample) == 168)

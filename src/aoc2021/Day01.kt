@@ -1,3 +1,7 @@
+package aoc2021
+
+import readInput
+
 fun main() {
     fun part1(input: List<Int>): Int {
         var increasedCounter = 0
@@ -23,7 +27,7 @@ fun main() {
         return part1(map.values.toList())
     }
 
-    val testInput = readInput("2021/Day01").map { it.toInt() }
+    val testInput = readInput("aoc2021/Day01").map { it.toInt() }
     check(part1(testInput) == 1766)
     check(part2(testInput) == 1797)
 }
