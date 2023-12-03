@@ -29,3 +29,8 @@ fun print(arrays: Array<IntArray>) {
         println()
     }
 }
+
+/**
+ * The cleaner shorthand for printing output.
+ */
+fun Any?.println() = println(this)
