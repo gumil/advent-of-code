@@ -54,8 +54,8 @@ fun main() {
         }
     }
 
-    val input = readInput("Day08")
-    val sample = readInput("Day08_test")
+    val input = readInput("2021/Day08")
+    val sample = readInput("2021/Day08_test")
 
     println(part2(input))
     check(part1(sample) == 26)

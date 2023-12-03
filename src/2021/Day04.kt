@@ -120,8 +120,8 @@ fun main() {
         return 0
     }
 
-    val input = readInput("Day04")
-    val sample = readInput("Day04_test")
+    val input = readInput("2021/Day04")
+    val sample = readInput("2021/Day04_test")
 
     check(part1(sample) == 4512)
     check(part2(sample) == 1924)

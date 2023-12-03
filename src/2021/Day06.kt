@@ -50,8 +50,8 @@ fun main() {
         return fishSums.sum()
     }
 
-    val input = readInput("Day06")
-    val sample = readInput("Day06_test")
+    val input = readInput("2021/Day06")
+    val sample = readInput("2021/Day06_test")
     check(part1(sample) == 5934)
     check(part2(sample) == 26984457539)
     check(part1(input) == 373378)

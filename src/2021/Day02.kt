@@ -49,7 +49,7 @@ fun main() {
         return horizontal * depth
     }
 
-    val testInput = readInput("Day02")
+    val testInput = readInput("2021/Day02")
     check(part1(testInput) == 1698735)
     check(part2(testInput) == 1594785890)
 }

@@ -52,7 +52,7 @@ fun main() {
         return generator * scrubber
     }
 
-    val testInput = readInput("Day03")
+    val testInput = readInput("2021/Day03")
     check(part1(testInput) == 3901196)
     check(part2(testInput) == 4412188)
 }
