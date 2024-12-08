@@ -30,6 +30,17 @@ fun print(arrays: Array<IntArray>) {
     }
 }
 
+fun printArray(arrays: Array<CharArray>) {
+    arrays.forEach { arr ->
+        arr.forEach {
+            print("$it")
+        }
+        println()
+    }
+}
+
+fun List<String>.toCharArray() = this.map { it.toCharArray() }.toTypedArray()
+
 /**
  * The cleaner shorthand for printing output.
  */
